@@ -2,6 +2,7 @@ package com.oa.sessiontask
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.RecyclerView
 import com.oa.sessiontask.databinding.ActivityMainBinding
@@ -27,6 +28,6 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-
+    Toast.makeText(this,"Toast",Toast.LENGTH_SHORT).show()
     }
 }
